@@ -1,0 +1,121 @@
+.p-title {
+  .en {
+    font-size: 50px;
+
+    &::before {
+      height: 40px;
+      width: 40px;
+    }
+
+    &::after {
+      width: 120px;
+    }
+  }
+
+  .ja {
+    font-size: 26px;
+  }
+}
+
+.c-subTitle {
+
+  & .en {
+    top: -54px;
+    font-size: 88px;
+  }
+
+  & .ja {
+    font-size: 32px;
+  }
+}
+
+.top-view {
+  margin-top: 85px;
+
+  .hero {
+    &__text {
+      h2 {
+        font-size: 58px;
+      }
+
+      &::after {
+        left: 236px;
+        bottom: 190px;
+      }
+    }
+  }
+}
+
+.c-topview {
+  margin-top: 90px;
+
+  .c-title {
+    .en {
+      font-size: 54px;
+
+      &::before {
+        height: 50px;
+        width: 50px;
+      }
+    }
+
+    .ja {
+      font-size: 28px;
+    }
+  }
+}
+
+.p-contact {
+
+  br {
+    display: none;
+  }
+}
+
+.p-news {
+  &__date {
+    font-size: 24px;
+  }
+
+  &__content {
+    font-size: 24px;
+  }
+}
+
+.c-business {
+
+  &-item {
+
+    .c-title {
+      padding-left: 0;
+    }
+
+    &__desc {
+      width: 50%;
+      padding-right: 0;
+      margin-top: 0;
+
+      &::before {
+        height: 100vh;
+        width: 350px;
+      }
+    }
+
+    &__img {
+      display: flex;
+      width: 70%;
+      height: auto;
+
+      & img {
+        height: 100%;
+        width: 50%;
+      }
+    }
+
+  }
+
+  #business02 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
