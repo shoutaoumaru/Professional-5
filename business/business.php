@@ -1,3 +1,7 @@
+<?php
+ /* Template Name: business
+ */
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -6,11 +10,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>取扱業務 | 士業テンプレート4</title>
-  <link rel="stylesheet" href="/styles/vendor/logo-animation.min.css">
-  <link rel="stylesheet" href="/styles/vendor/animsition.min.css">
-  <link rel="stylesheet" href="/styles/vendor/bootstrap-reboot.css">
-  <link rel="stylesheet" href="/styles/vendor/swiper.min.css">
-  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendor/logo-animation.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendor/animsition.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendor/bootstrap-reboot.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendor/swiper.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/style.css">
 </head>
 
 <body>
@@ -18,7 +22,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container">
         <div class="logo__img">
-          <a href="/">
+          <a href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -33,29 +37,29 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/company/company.html"><span>事務所案内</span>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/company')); ?>"><span>事務所案内</span>
                 <small>Company</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href="/business/business.html"><span>取扱業務</span><small>business</small></a>
+                href=" <?php echo esc_url( home_url('/business')); ?>"><span>取扱業務</span><small>business</small></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/cace/cace.html"><span>事例紹介</span><small>Works</small></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/cace')); ?>"><span>事例紹介</span><small>Works</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href="/recruit/recruit.html"><span>採用情報</span><small>Recruit</small></a>
+                href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>採用情報</span><small>Recruit</small></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>お知らせ</span><small>News</small></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>お知らせ</span><small>News</small></a>
             </li>
           </ul>
         </nav>
@@ -85,7 +89,7 @@
     <main id="main-contents" class="c-business">
       <section class="c-topview">
         <div class="c-topview__img">
-          <img src="/images/top/values.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top/values.jpg" alt="">
         </div>
         <h2 class="c-title">
           <p class="en">Handling business</p>
@@ -100,8 +104,8 @@
         </h2>
         <div class="c-business-item__wrap">
           <div class="c-business-item__img">
-            <img src="/images/top/top-image-3.jpeg" alt="">
-            <img src="/images/service/rikon.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top/top-image-3.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/service/rikon.jpg" alt="">
           </div>
           <div class="c-business-item__desc">
             <h2 class="c-txt-md">料金の目安</h2>
@@ -144,8 +148,8 @@
         </h2>
         <div class="c-business-item__wrap">
           <div class="c-business-item__img">
-            <img src="/images/service/service-7.jpg" alt="">
-            <img src="/images/service/car-ac.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/service/service-7.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/service/car-ac.jpg" alt="">
           </div>
           <div class="c-business-item__desc">
             <h2 class="c-txt-md">料金の目安</h2>
@@ -188,8 +192,8 @@
         </h2>
         <div class="c-business-item__wrap">
           <div class="c-business-item__img">
-            <img src="/images/service/service-1.jpg" alt="">
-            <img src="/images/service/service-3.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/service/service-1.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/service/service-3.jpg" alt="">
           </div>
           <div class="c-business-item__desc">
             <h2 class="c-txt-md">料金の目安</h2>
@@ -232,8 +236,8 @@
         </h2>
         <div class="c-business-item__wrap">
           <div class="c-business-item__img">
-            <img src="/images/news/news.jpg" alt="">
-            <img src="/images/service/service-5.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/news/news.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/service/service-5.jpg" alt="">
           </div>
           <div class="c-business-item__desc">
             <h2 class="c-txt-md">料金の目安</h2>
@@ -282,7 +286,7 @@
             <a href="tel:050-3786-1317">Tel:050-3786-1317</a>
           </div>
           <div class="p-contact__form">
-            <a class="link-btn" href="/contact/contact.html">
+            <a class="link-btn" href=" <?php echo esc_url( home_url('/company')); ?>">
               <span class="c-txt-md">お問い合わせフォーム</span></a>
           </div>
         </div>
@@ -290,97 +294,17 @@
       <!-- /.p-contact -->
     </main>
     <!-- /#main-contents -->
-    <footer class="p-footer">
-      <div class="c-container">
-        <div class="p-footer__wrap">
-          <div class="p-footer__logo">
-            <img src="/images/common/reagle.png" alt="">
-          </div>
-          <div class="p-footer__nav">
-            <ul>
-              <li>
-                <a class="animsition-link" href="/"><span class="c-txt-sm">ホーム</span>
-                  <span class="c-txt-xs">Home</span></a>
-              </li>
-              <li>
-                <a class="animsition-link" href="/company/company.html"><span class="c-txt-sm">事務所案内</span>
-                  <span class="c-txt-xs">Company</span></a>
-              </li>
-              <li>
-                <a class="animsition-link" href="/business/business.html"><span class="c-txt-sm">取扱事業</span>
-                  <span class="c-txt-xs">business</span></a>
-              </li>
-              <li>
-                <a class="animsition-link" href="/cace/cace.html"><span class="c-txt-sm">事例紹介</span>
-                  <span class="c-txt-xs">Works</span></a>
-              </li>
-              <li>
-                <a class="animsition-link" href="/recruit/recruit.html"><span class="c-txt-sm">採用情報</span>
-                  <span class="c-txt-xs">Recruit</span></a>
-              </li>
-              <li>
-                <a href="/news/news.html"><span class="animsition-link c-txt-sm">お知らせ</span>
-                  <span class="c-txt-xs">News</span></a>
-              </li>
-            </ul>
-          </div>
-          <div class="p-footer__address">
-            <div class="address">
-              <p class="c-txt-sm">住所</p>
-              <span class="c-txt-sm">〒812-0011<br>福岡県福岡市博多区3-27-25-9F</span>
-            </div>
-            <div class="info">
-              <a href="tel:050-3786-1317"><span class="c-txt-sm">Tel : 050-3786-1317</span></a>
-            </div>
-            <div class="info"><span class="c-txt-sm">営業時間 : 9:00~18:00</span>
-            </div>
-            <div class="info"><span class="c-txt-sm">定休日 : 土曜日・日曜・祝日</span>
-            </div>
-          </div>
-        </div>
-        <div class="copyright">&copy;2021 Riv建設</div>
-      </div>
-    </footer>
+    <?php get_template_part('includes/c-footer'); ?>      
     <!-- /.footer -->
-    <div class="mobile-menu">
-      <nav class="mobile-menu__nav">
-        <ul class="mobile-menu__list">
-          <li class="mobile-menu__item"><a class="animsition-link" href="/">ホーム</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/company/company.html">事務所案内</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/business/business.html">取扱業務</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/cace/cace.html">事例紹介</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/news/news.html">お知らせ</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/recruit/recruit.html">採用情報</a></li>
-        </ul>
-        <div class="contact-btn">
-          <ul class="contact-btn-list">
-            <li class="contact-btn-item">
-              <a href="tel:05031599527">
-                <span class="tel">お問い合わせ</span>
-              </a>
-            </li>
-            <li class="contact-btn-item">
-              <a href="mailto:info@riv-round.com">
-                <span class="mail">お問い合わせ</span>
-              </a>
-            </li>
-            <li class="contact-btn-item">
-              <a href="https://www.instagram.com/?hl=ja" target="_blank">
-                <span class="insta">インスタグラム</span>
-              </a>
-            </li>
-        </div>
-        </ul>
-      </nav>
-    </div>
+    <?php get_template_part('includes/c-header'); ?>     
     <!-- /.mobile-menu -->
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/scripts/vendor/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="/scripts/libs/mobile-menu.js"></script>
-  <script src="/scripts/libs/scroll.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/vendor/animsition.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/page.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/mobile-menu.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/libs/scroll.js"></script>
 </body>
 
 </html>
