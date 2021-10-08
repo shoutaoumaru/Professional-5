@@ -1287,6 +1287,10 @@ body.hidden {
 
 //* * * * * * contact-page * * * * * * *
 .c-contact {
+  padding-top: 40px;
+  @extend .c-mt;
+  background-color: $cWhite;
+
   &-text {
     margin-bottom: 30px;
   }
